@@ -20,12 +20,7 @@ This Python script utilizes optical character recognition (OCR) techniques, natu
 - Run the script.
   The script will process each PNG file, extract text, generate titles, summarize the content, and store the results in an Excel file.
 
-### burn
 
-Allows token holders to destroy a specified amount of their tokens, reducing the total supply.
-
-Parameters:
-- amount: The amount of tokens to be burned.
 
 ### Output
 
@@ -35,18 +30,11 @@ The script generates an Excel file containing three columns:
 - Authors: Likely authors extracted using named entity recognition (NER).
 - Alternative Titles: Alternative titles generated based on the summary of the publication content
 
-### transfer
+### Note
 
-Overrides the standard ERC20 transfer function to include custom logic, if necessary.
+- The performance of title and summary generation heavily depends on the quality and nature of the input images. Adjustments may be necessary in the code to accommodate different types of publications and image qualities.
+- Fine-tuning the pre-trained models on domain-specific data could potentially improve the quality of generated titles and summaries.
+- Ensure proper citation and permissions when using or distributing the generated titles and summaries.
+- This script serves as a starting point and may require further customization based on specific requirements and use cases
 
-Parameters:
-- recipient: The address to receive the tokens.
-- amount: The amount of tokens to be transferred.
 
-## Deployment and Usage
-
-To deploy the 91Token contract, you will need an Ethereum wallet with enough Ether to cover the gas fees and a development environment configured for Solidity and Ethereum smart contract deployment (e.g., Truffle, Hardhat).
-
-1. *Setup Development Environment:* Ensure that your development environment is properly set up for Solidity and Ethereum smart contract development.
-2. *Deploy Contract:* Use your preferred tooling to compile and deploy the contract to the Ethereum network.
-3. *Interact with Contract:* After deployment, you can interact with the contract's functions using Ethereum wallets or programmatically through Ethereum libraries such as web3.js or ethers.js.
