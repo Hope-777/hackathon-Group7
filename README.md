@@ -11,20 +11,14 @@ This Python script utilizes optical character recognition (OCR) techniques, natu
 - *transformers:* Hugging Face's Transformers library for utilizing pre-trained deep learning models.
 - *pandas:* For handling tabular data efficiently.
 
-## Contract Details
 
-- *Name:* NinteyOne
-- *Symbol:* 91
-- *Blockchain:* Ethereum
 
-## Functions
+### usage
 
-### Constructor
-
-Initializes the contract, setting the token details and the initial owner.
-
-Parameters:
-- initialOwner: The address that will be granted the ownership of the contract.
+- Place your PNG files containing scientific publication images in a directory.
+- Modify the directory_path variable in the script to point to this directory.
+- Run the script.
+- The script will process each PNG file, extract text, generate titles, summarize the content, and store the results in an Excel file.
 
 ### burn
 
