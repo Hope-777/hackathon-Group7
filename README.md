@@ -13,12 +13,12 @@ This Python script utilizes optical character recognition (OCR) techniques, natu
 
 
 
-### usage
+### Usage
 
 - Place your PNG files containing scientific publication images in a directory.
 - Modify the directory_path variable in the script to point to this directory.
 - Run the script.
-- The script will process each PNG file, extract text, generate titles, summarize the content, and store the results in an Excel file.
+  The script will process each PNG file, extract text, generate titles, summarize the content, and store the results in an Excel file.
 
 ### burn
 
@@ -27,13 +27,13 @@ Allows token holders to destroy a specified amount of their tokens, reducing the
 Parameters:
 - amount: The amount of tokens to be burned.
 
-### mint
+### Output
 
-Enables the contract owner to create new tokens and assign them to a specified address.
+The script generates an Excel file containing three columns:
 
-Parameters:
-- to: The address that will receive the newly minted tokens.
-- amount: The amount of tokens to be minted and assigned.
+- Title: Extracted title from the publication.
+- Authors: Likely authors extracted using named entity recognition (NER).
+- Alternative Titles: Alternative titles generated based on the summary of the publication content
 
 ### transfer
 
