@@ -4,10 +4,12 @@ This Python script utilizes optical character recognition (OCR) techniques, natu
 
 ## Dependencies
 
-- *ERC20 Compliant:* Fully compatible with the ERC20 standard, ensuring interoperability with a wide range of services and platforms in the Ethereum ecosystem.
-- *Mintable:* Authorized accounts (e.g., the contract owner) can generate new tokens, facilitating flexible supply management.
-- *Burnable:* Token holders can reduce the circulating supply by destroying a portion of their tokens, enhancing value through scarcity.
-- *Transferable:* Tokens can be easily transferred between accounts, enabling seamless transactions within the network.
+- *nltk:* For natural language processing tasks such as tokenization.
+- *pytesseract:* Python wrapper for Google's Tesseract-OCR Engine.
+- *PIL:* Python Imaging Library for opening, manipulating, and saving many different image file formats.
+- *spacy:* For named entity recognition (NER) tasks.
+- *transformers:* Hugging Face's Transformers library for utilizing pre-trained deep learning models.
+- *pandas:* For handling tabular data efficiently.
 
 ## Contract Details
 
